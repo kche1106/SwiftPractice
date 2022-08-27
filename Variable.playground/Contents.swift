@@ -15,3 +15,21 @@ r = 5.456
 //p = 3.1415
 
 //글자 드래그 후 Command + 클릭 > Edit all in scope
+
+//함수
+func circleArea(r: Double) -> Double {
+    return r * r * 3.14
+}
+
+circleArea(r: 3.123)
+circleArea(r: 8.97)
+
+//클래스
+class Circle {
+    var radius = 3.123
+    let pi = 3.141592
+    
+    func circleArea(r: Double) -> Double {
+        return r * r * 3.14
+    }
+}
