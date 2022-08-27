@@ -5,7 +5,10 @@ var isLogin = false
 
 var str: String = "Hello~"
 var day: Int = 27
+
+//소수점 사용시 정밀도가 높은 Double 사용
 var weight: Double = 65.5
+var height: Float = 65.5
 
 //다른 데이터타입은 저장 불가
 //message = 17
