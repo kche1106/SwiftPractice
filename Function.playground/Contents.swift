@@ -18,6 +18,7 @@ func addTwoNumbers(num1: Int, num2: Int) -> Int {
  addTwoNumbers(num1: 5, num2: 10)
 
 
+//함수의 다양한 형태
 func addTwoNumbers2(num1: Int, num2: Int = 100) -> Int {
     let sum = num1 + num2
     return sum
@@ -42,3 +43,7 @@ func myInfo() -> (name: String, weight: Int) {
 let info = myInfo()
 print(info.name)
 print(info)
+
+
+//print 함수
+print(123, "hello", true, separator: "--", terminator: "")
