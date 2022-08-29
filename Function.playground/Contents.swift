@@ -58,3 +58,15 @@ func add(num1: Int, num2: Int) -> Int {
 //변수: 초기화 후 값이 바뀜
 //상수: 초기화 후 값이 바뀌지 않음
 //scope가 다르면 이름이 같더라도 에러가 발생하지 않음
+
+
+//argument label: 입력값에 대한 설명(생략 가능)
+func calculate(multiflyFirstNum num1: Int, bySecondNumber num2: Int) -> Int {
+    return num1 * num2
+}
+
+func calculate(devideFirstNum num1: Int, bySecondNumber num2: Int) -> Int {
+    return num1 * num2
+}
+
+calculate(devideFirstNum: 10, bySecondNumber: 10)
