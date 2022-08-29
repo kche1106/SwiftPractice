@@ -14,3 +14,5 @@ class Circle {
 if true {
     var circle1 = Circle()
 }
+
+
