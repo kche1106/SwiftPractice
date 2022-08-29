@@ -15,7 +15,7 @@ func addTwoNumbers(num1: Int, num2: Int) -> Int {
     let sum = num1 + num2
     return sum
 }
- addTwoNumbers(num1: 5, num2: 10)
+addTwoNumbers(num1: 5, num2: 10)
 
 
 //함수의 다양한 형태
@@ -47,3 +47,14 @@ print(info)
 
 //print 함수
 print(123, "hello", true, separator: "--", terminator: "")
+
+
+//scope: 변수, 상수 사용 가능 범위
+func add(num1: Int, num2: Int) -> Int {
+    let sum = num1 + num2
+    return sum  //값 반환 후 sum은 소멸됨
+}
+//print(sum) scope 벗어남
+//변수: 초기화 후 값이 바뀜
+//상수: 초기화 후 값이 바뀌지 않음
+//scope가 다르면 이름이 같더라도 에러가 발생하지 않음
